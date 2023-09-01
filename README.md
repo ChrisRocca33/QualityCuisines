@@ -3,7 +3,7 @@
 
 
 <h2>Description</h2>
-Project consists 5 tables within mySQL that store user information as well as information for the recipes. When the user first navigates to the site, they can either login or create a new account. Once they login, they will be able to view the recipoes that are stored in mySQL and displayed using PHP. Admins have full capabilities of CRUD operations as well as changing users from either a normal user or having admin privileges.
+Project consists 5 tables within mySQL that store user information as well as information for the recipes. When the user first navigates to the site, they can either login or create a new account. Once they login, they will be able to view the recipoes that are stored in mySQL and displayed using PHP. Admins have full capabilities of CRUD operations as well as changing users from either a normal user or having admin privileges. Source code is included for reference.
 <br />
 
 
