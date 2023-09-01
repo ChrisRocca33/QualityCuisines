@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/cookie.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+table {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: blue 1px 1px;
+    border: 1px solid blue;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+td, th {
+    border: 1px dashed blue;
+    padding: .2em .5em .2em .5em;
+    text-align: center;
+    left: 50%;
+}
+h1 {
+    font-style: italic;
+    font-size: 35px;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    color: blue;
+    text-shadow:#ffffff 1px 1px;
+}
+h2 {
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: blue 1px 1px;
+}
+h3 {
+   font-size: 50px;
+   text-align: center;
+   text-shadow: blue 1px 1px;
+}
+.display {
+    width: 50%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 70px 30px;
+ }
+
+ li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:#fff;
+ }
+ header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .nav_links {
+    list-style: none;
+ }
+ .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    color: white;
+    text-shadow: blue 1px 1px;
+ }
+ .nav_links li a {
+    transition: all 0.3s ease 0s;
+ }
+ .nav_links li a:hover {
+    color: blue;
+ }
+ .display input[type="submit"] {
+    color:white;
+    font-size: 18px;
+    padding: 9px 25px;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ .display input[type="submit"]:hover {
+    background: cyan;
+    color: #000;
+ }

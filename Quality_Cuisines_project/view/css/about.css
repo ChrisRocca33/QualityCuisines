@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/cookie.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1 {
+    font-style: italic;
+    font-size: 50px;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    text-shadow:#000000 2px 2px;
+}
+h2 {
+    font-size: 35px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    text-shadow: blue 1px 1px;
+}
+.display {
+    width: 50%;
+    height:100%;
+    background: #ffffff;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 70px 30px;
+ }
+p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+}
+ul {
+    padding-left: 40%;
+}
+
+ header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+ }
+ .display input[type="submit"] {  
+    width: 49%;
+    color:white;
+    font-size: 18px;
+    padding: 9px;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ .display input[type="submit"]:hover {
+    background-color: cyan;
+    color: #000000;
+ }

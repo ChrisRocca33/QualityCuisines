@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/cc.png);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 30px;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    color: blue;
+    text-shadow:#000000 1px 1px;
+}
+h2 {
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: blue 1px 1px;
+}
+h3 {
+    font-size: 25px;
+    margin: 0px 70px;
+    text-shadow: blue 1px 1px;
+    text-align: center;
+}
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 5% 0%;
+}
+.display {
+    width: 40%;
+    height: 100%;
+    background: #ffffff;
+    color: #000000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+    padding: 30px 30px;
+}
+ header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+ }
+ nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+ }
+ nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ nav ul input[type="submit"] {
+    list-style: none;
+    padding: 0px 5px;
+ }
+ .nav_links li {
+    display: inline-block;
+    padding: 0px 5px;
+    color: white;
+    text-shadow: blue 1px 1px;
+ }
+
+ .display input[type="submit"] {
+    color:white;
+    font-size: 18px;
+    padding: 9px 20px;
+    background-color: blue;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+ .display input[type="submit"]:hover {
+    background: cyan;
+    color: #000;
+ }
+ table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:  center;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-shadow: blue 1px 1px;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+td, th {
+    font-size: 25px;
+    padding: .2em .5em .2em .5em;
+    text-align: center;
+    left: 50%;
+}
